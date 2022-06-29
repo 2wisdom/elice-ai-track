@@ -1,0 +1,14 @@
+h1, h3 {
+    color:palevioletred;
+}
+
+/* h3 {
+    color:palevioletred;
+} */
+
+body input[type="button"] {
+    border: 1px solid blue;
+}
+input[type="text"] {
+    border: 1px dotted;
+}
