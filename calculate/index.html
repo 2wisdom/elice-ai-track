@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate</title>
+    <script src="/calculate/index.js"></script>
+</head>
+<body>
+    <h2>계산기</h2>
+    <input type="button" value="0"
+    onclick="printExpression(0)"/>
+    <input type="button" value="1" 
+    onclick="printExpression(1)"/>
+    <input type="button" value="2" 
+    onclick="printExpression(2)"/>
+    <input type="button" value="3" 
+    onclick="printExpression(3)"/>
+    <input type="button" value="4"
+    onclick="printExpression(4)"/>
+    <input type="button" value="5"
+    onclick="printExpression(5)"/>
+    <input type="button" value="6"
+    onclick="printExpression(6)"/>
+    <input type="button" value="7"
+    onclick="printExpression(7)"/>
+    <input type="button" value="8"
+    onclick="printExpression(8)"/>
+    <input type="button" value="9"
+    onclick="printExpression(9)"/>
+    
+    <h3>연산</h3>
+    <input type="button" value="+" 
+    onclick="printExpression('+')"/>
+    <input type="button" value="-" 
+    onclick="printExpression('-')"/>
+    <input type="button" value="*" 
+    onclick="printExpression('*')"/>
+    <input type="button" value="/" 
+    onclick="printExpression('/')"/>
+    <input type="button" value="%" 
+    onclick="printExpression('%')"/>
+    
+    <h2>식</h2>
+    <input type="button" value="계산하기" 
+    onclick=" "/>
+    <div id="expression"></div>
+    
+    <h2>정답</h2>
+    <div id="answer"></div>
+</body>
+</html>

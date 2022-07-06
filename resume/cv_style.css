@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: grey;
+}
+
+.menu-btn:hover {
+    color: darkgrey;
+    transition: all 0.4s ease-in;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile img {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.profile img:hover {
+    width: 320px;
+    height: 320px;
+    transition: all 1s linear 0.5s;
+    transform: scale(1.2)
+}
+
+main {
+    padding: 32px;
+}
+
+main h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cv {
+    display: none;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+#name {
+    font-size: 48px;
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sub-title {
+    font-size: 32px;
+    font-family: sans-serif;
+    margin: 30px 0 10px 0;
+}
+
+footer {
+    padding: 40px;
+    background-color: lightgrey;
+}
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-container {
+        display: block;
+    }
+}

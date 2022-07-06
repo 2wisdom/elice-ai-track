@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 복습</title>
+    <style>
+        body p {
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>자바스크립트</h1>
+    <p><strong>javascript</strong> is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus amet dicta aperiam excepturi magni! Impedit est reiciendis labore tempore expedita quasi voluptate, quam obcaecati soluta eos excepturi alias rerum aut.</p>
+    <script src="/0704/index.js"></script>
+    <input type="button" value="공부하기" onclick="clickButton()" />
+    <!-- <script>
+        function clickButton() {
+            alert("intermal 방식!");
+        }
+    </script> -->
+    <input type="button"
+    value="night"
+    onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    document.querySelector('P').style.borderColor = 'white';
+    ">
+    <input type="button"
+    value="day"
+    onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    document.querySelector('P').style.borderColor = 'black';
+    ">
+
+<!--
+<script>
+alert('경고!');
+prompt('너의 이름은?');
+confirm('확실합니까?');
+</script>
+-->
+
+<h2>숫자형</h2>
+<script>
+    let number1 = 3;
+    let number2 = 7;
+    document.write(number1 + number2)
+    document.write('<br />')
+    document.write(number1 - number2)
+    document.write('<br />')
+    document.write(number1 * number2)
+    document.write('<br />')
+    document.write(number1 / number2)
+    document.write('<br />')
+    document.write(number1 % number2)
+</script>
+
+</body>
+</html>
