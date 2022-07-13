@@ -34,12 +34,12 @@ nav a {
     overflow: hidden;
 }
 
-.profile img:hover {
+/* .profile img:hover {
     width: 320px;
     height: 320px;
     transition: all 1s linear 0.5s;
     transform: scale(1.2)
-}
+} */
 
 main {
     padding: 32px;

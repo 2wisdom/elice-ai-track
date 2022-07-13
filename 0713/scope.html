@@ -1,0 +1,29 @@
+
+
+<script>
+
+    a_global = 'a_blobal';
+    var a_var = 'a_var';
+    let a_let = 'a_let';
+    const a_const = 'a_const';
+    console.log(a_global, a_var, a_let, a_const);
+    console.log(window.a_global, window.a_var, window.a_let, window.a_const);
+
+    function fn2() {
+        c_global = 'c_global';
+        var c_var = 'c_var';
+        let c_let = 'c_let';
+        const c_const = 'c_const';
+    }
+
+    function fn1() {
+        b_global = 'b_global';
+        var b_var = 'b_var';
+        let b_let = 'b_let';
+        const b_const = 'b_const';
+        fn2();
+    }
+
+    fn1()
+
+</script>
